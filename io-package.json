@@ -33,7 +33,7 @@
 			"mihome-lamp"
 		],
 		"extIcon": "https://raw.githubusercontent.com/MeisterTR/ioBroker.mihome-lamp/master/admin/mihome-lamp.png",
-		"type": "hardware",
+		"type": "lighting",
 		"config": {
 			"minWidth": 800,
 			"width ": 1224
