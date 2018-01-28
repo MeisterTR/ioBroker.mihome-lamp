@@ -1,44 +1,77 @@
 {
-	"common": {
-		"name": "mihome-lamp",
-		"version": "0.1.0",
-		"news": {
-			"0.1.0": {
-				"en": "Version update",
-				"de": "Version erhöht",
-				"ru": "Первая версия"
-			},
-			"0.0.1": {
-				"en": "Inital version",
-				"de": "Erste Version",
-				"ru": "Первая версия"
-			}
-		},
-		"title": "mihome-lamp Adapter",
-		"desc": "This adapter allows control Xiaomi Lamp ",
-		"authors": [
-			"MeisterTR <meistertr.smarthome@gmail.com>"
-		],
-		"license": "MIT",
-		"platform": "Javascript/Node.js",
-		"mode": "daemon",
-		"loglevel": "info",
-		"icon": "mihome-lamp.png",
-		"webExtension": "lib/mihome-lamp.js",
-		"readme": "https://github.com/MeisterTR/ioBroker.mihome-lamp/blob/master/README.md",
-		"keywords": [
-			"url",
-			"html",
-			"file",
-			"mihome-lamp"
-		],
-		"extIcon": "https://raw.githubusercontent.com/MeisterTR/ioBroker.mihome-lamp/master/admin/mihome-lamp.png",
-		"type": "lighting",
-		"config": {
-			"minWidth": 800,
-			"width ": 1224
-		}
-	},
+  "common": {
+    "name": "mihome-lamp",
+    "version": "1.0.0",
+    "news": {
+      "1.0.0": {
+        "en": "ready for admin3",
+        "de": "bereit für admin3",
+        "ru": "готово для администратора3",
+        "pt": "pronto para admin3",
+        "nl": "klaar voor admin3",
+        "fr": "prêt pour admin3",
+        "it": "pronto per admin3",
+        "es": "listo para admin3",
+        "pl": "gotowy do administratora3"
+      },
+      "0.1.0": {
+        "en": "Version update",
+        "de": "Version erhöht",
+        "ru": "Первая версия"
+      },
+      "0.0.1": {
+        "en": "Inital version",
+        "de": "Erste Version",
+        "ru": "Первая версия"
+      }
+    },
+    "title": "Xiaomi Desk Lamp Adapter (Wifi)",
+    "titleLang": {
+      "en": "Control Your Xiaomi Desk Lamp (Wifi)",
+      "de": "Steuere deine Xiaomi Schreibtischlampe (Wifi)",
+      "ru": "Контролируйте свою настольную лампу Xiaomi (Wifi)",
+      "pt": "Controle sua lâmpada de mesa Xiaomi (Wifi)",
+      "nl": "Bedien uw Xiaomi-bureaulamp (wifi)",
+      "fr": "Contrôlez votre lampe de bureau Xiaomi (Wifi)",
+      "it": "Controlla la tua Xiaomi Desk Lamp (Wifi)",
+      "es": "Controle su lámpara de escritorio Xiaomi (Wifi)",
+      "pl": "Kontroluj swoją lampę biurkową Xiaomi (Wifi)"
+    },
+    "desc": {
+      "en": "This Adapter control your Xiaomi Desk Lamp (Wifi not Yeelight)",
+      "de": "Dieser Adapter steuert Ihre Xiaomi Schreibtischlampe (Wifi nicht Yeelight)",
+      "ru": "Этот адаптер управляет вашей настольной лампой Xiaomi (Wifi not Yeelight)",
+      "pt": "Este adaptador controla sua lâmpada de mesa Xiaomi (Wifi no Yeelight)",
+      "nl": "Deze adapter regelt uw Xiaomi-bureaulamp (Wifi niet Yeelight)",
+      "fr": "Cet adaptateur contrôle votre lampe de bureau Xiaomi (Wifi non Yeelight)",
+      "it": "Questo adattatore controlla la tua Xiaomi Desk Lamp (Wifi non Yeelight)",
+      "es": "Este adaptador controla tu lámpara de escritorio Xiaomi (Wifi not Yeelight)",
+      "pl": "Ten adapter kontroluje lampę biurową Xiaomi (Wifi nie Yeelight)"
+    },
+    "authors": [
+      "MeisterTR <meistertr.smarthome@gmail.com>"
+    ],
+    "materialize": true,
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "loglevel": "info",
+    "icon": "mihome-lamp.png",
+    "webExtension": "lib/mihome-lamp.js",
+    "readme": "https://github.com/MeisterTR/ioBroker.mihome-lamp/blob/master/README.md",
+    "keywords": [
+      "url",
+      "html",
+      "file",
+      "mihome-lamp"
+    ],
+    "extIcon": "https://raw.githubusercontent.com/MeisterTR/ioBroker.mihome-lamp/master/admin/mihome-lamp.png",
+    "type": "lighting",
+    "config": {
+      "minWidth": 800,
+      "width ": 1224
+    }
+  },
 	"native": {
 		"port": 54321,
 		"ownPort": 53423,
