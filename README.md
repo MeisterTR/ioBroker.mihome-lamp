@@ -17,6 +17,8 @@ This adapter allows you control the Xiaomi Lamp with ioBroker.
 
 
 ## Changelog
+### 1.0.0 (2018-01-28)
+* (MeisterTR) small changes, version update
 ### 0.1.0 (2017-08-02)
 * (MeisterTR) small changes, version update
 ### 0.0.1 (2017-01-16)
