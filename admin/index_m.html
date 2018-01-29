@@ -31,11 +31,9 @@
 
     <script type="text/javascript">
         var values = [];
-
         // the function loadSettings has to exist ...
         function load(settings, onChange) {
             if (!settings) return;
-
             $('.value').each(function () {
                 var key = $(this).attr('id');
                 var $key = $('#' + key + '.value');
@@ -51,11 +49,8 @@
                     });
                 }
             });
-
             onChange(false);
-
             var namespace = adapter + '.' + instance + '.';
-
             socket.emit('getObjectView', 'system', 'state', { startkey: namespace, endkey: namespace + '\u9999' }, function (err, res) {
                 if (!err && res) {
                     var _res = {};
@@ -78,7 +73,6 @@
                         });
                     }
                 }
-
                 var newValues = JSON.parse(JSON.stringify(values));
                 var __values2table;
                 if (typeof values2table !== 'undefined') __values2table = values2table;
@@ -87,7 +81,6 @@
                     if (!newValues.length) {
                         $('.table-button-add').trigger('click');
                     }
-
                     $('.values-input[data-name="name"]').change(function () {
                         var val = $(this).val();
                         var error = '';
@@ -132,20 +125,16 @@
                         } else {
                             $('.values-input[data-name="unit"][data-index="' + id + '"]').show();
                         }
-
                     });
                 });
             });
         }
-
         function processTasks(tasks, cb) {
             if (!tasks || !tasks.length) {
                 cb && cb();
                 return;
             }
-
             var task = tasks.pop();
-
             if (typeof task === 'object') {
                 socket.emit('setObject', task._id, task, function (err) {
                     if (err) console.error(err);
@@ -165,7 +154,6 @@
                 });
             }
         }
-
         function save(callback) {
             var obj = {};
             $('.value').each(function () {
@@ -176,7 +164,6 @@
                     obj[$this.attr('id')] = $this.val();
                 }
             });
-
             callback(obj);
         }
     </script>
@@ -184,35 +171,37 @@
 <body>
     <div class="m adapter-container">
         <div class="row">
-            <div class="col s12 m2 l1">
-                <img src="mihome-lamp.png" class="logo" style="filter: drop-shadow(0px 0px 8px #2B95F3);">
+            <div class="row">
+                <div class="col s12 m2 l1">
+                    <img src="mihome-lamp.png" class="logo" style="filter: drop-shadow(0px 0px 8px #2B95F3);">
 
+                </div>
+                <div class="col s12 m8 l10">
+                    <h6 class="translate">title</h6>
+                </div>
             </div>
-            <div class="col s12 m8 l10">
-                <h6 class="translate">title</h6>
+            <div class="divider"></div>
+            <div class="row" style="background-color: #64b5f6;">
+                <div class="col s12">
+                    <span class="translate">connection settings</span>
+                    <!-- Important: span must come directly after checkbox input (only by checkbox the span will be used!) -->
+                </div>
             </div>
-        </div>
-        <div class="divider"></div>
-        <div class="row" style="background-color: #64b5f6;">
-            <div class="col s12">
-                <span class="translate">connection settings</span>
-                <!-- Important: span must come directly after checkbox input (only by checkbox the span will be used!) -->
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m4 l2">
-                <input class="value" id="ip" size="15" />
-                <label class="translate" for="ip">IP address:</label>
-            </div>
+            <div class="row">
+                <div class="col s12 m4 l2">
+                    <input class="value" id="ip" size="15" />
+                    <label class="translate" for="ip">IP address:</label>
+                </div>
 
-            <div class="col s12 m3 l1 offset-m1 offset-l1">
-                <input class="value number" id="port" size="5" maxlength="5" type="number" />
-                <label class="translate" for="port">Lamp port:</label>
-            </div>
+                <div class="col s12 m3 l1 offset-m1 offset-l1">
+                    <input class="value number" id="port" size="5" maxlength="5" type="number" />
+                    <label class="translate" for="port">Lamp port:</label>
+                </div>
 
-            <div class="col s12 m3 l1 offset-m1 offset-l1">
-                <input class="value number" id="ownPort" size="5" maxlength="5" type="number" />
-                <label class="translate" for="ownPort">Own port:</label>
+                <div class="col s12 m3 l1 offset-m1 offset-l1">
+                    <input class="value number" id="ownPort" size="5" maxlength="5" type="number" />
+                    <label class="translate" for="ownPort">Own port:</label>
+                </div>
             </div>
         </div>
     </div>
