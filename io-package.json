@@ -1,9 +1,9 @@
 {
   "common": {
     "name": "mihome-lamp",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "news": {
-      "1.0.0": {
+      "1.0.1": {
         "en": "ready for admin3",
         "de": "bereit für admin3",
         "ru": "готово для администратора3",
@@ -27,26 +27,26 @@
     },
     "title": "Xiaomi Desk Lamp Adapter (Wifi)",
     "titleLang": {
-      "en": "Control Your Xiaomi Desk Lamp (Wifi)",
-      "de": "Steuere deine Xiaomi Schreibtischlampe (Wifi)",
-      "ru": "Контролируйте свою настольную лампу Xiaomi (Wifi)",
-      "pt": "Controle sua lâmpada de mesa Xiaomi (Wifi)",
-      "nl": "Bedien uw Xiaomi-bureaulamp (wifi)",
-      "fr": "Contrôlez votre lampe de bureau Xiaomi (Wifi)",
-      "it": "Controlla la tua Xiaomi Desk Lamp (Wifi)",
-      "es": "Controle su lámpara de escritorio Xiaomi (Wifi)",
-      "pl": "Kontroluj swoją lampę biurkową Xiaomi (Wifi)"
+      "en": "Xiaomi desk lamp (Wifi) control",
+      "de": "Xiaomi Schreibtischlampe (Wifi) steuern",
+      "ru": "Настольная лампа Xiaomi (Wifi)",
+      "pt": "Controle de lâmpada de mesa Xiaomi (Wifi)",
+      "nl": "Xiaomi bureaulamp (wifi) bediening",
+      "fr": "Lampe de bureau Xiaomi (Wifi)",
+      "it": "Controllo della lampada da tavolo Xiaomi (Wifi)",
+      "es": "Control de lámpara de escritorio Xiaomi (Wifi)",
+      "pl": "Sterowanie lampą biurkową Xiaomi (Wifi)"
     },
     "desc": {
-      "en": "This Adapter control your Xiaomi Desk Lamp (Wifi not Yeelight)",
-      "de": "Dieser Adapter steuert Ihre Xiaomi Schreibtischlampe (Wifi nicht Yeelight)",
-      "ru": "Этот адаптер управляет вашей настольной лампой Xiaomi (Wifi not Yeelight)",
-      "pt": "Este adaptador controla sua lâmpada de mesa Xiaomi (Wifi no Yeelight)",
-      "nl": "Deze adapter regelt uw Xiaomi-bureaulamp (Wifi niet Yeelight)",
-      "fr": "Cet adaptateur contrôle votre lampe de bureau Xiaomi (Wifi non Yeelight)",
-      "it": "Questo adattatore controlla la tua Xiaomi Desk Lamp (Wifi non Yeelight)",
-      "es": "Este adaptador controla tu lámpara de escritorio Xiaomi (Wifi not Yeelight)",
-      "pl": "Ten adapter kontroluje lampę biurową Xiaomi (Wifi nie Yeelight)"
+      "en": "This Adapter switch the Xiaomi Desk Lamp (Wifi not Yeelight)",
+      "de": "Dieser Adapter schaltet die Xiaomi Schreibtischlampe (Wifi nicht Yeelight)",
+      "ru": "Этот адаптер переключает настольную лампу Xiaomi (Wifi not Yeelight)",
+      "pt": "Este adaptador interruptor da lâmpada de mesa xiaomi (wi-fi não yeelight)",
+      "nl": "Deze adapter schakelt de Xiaomi Desk Lamp (Wifi niet Yeelight)",
+      "fr": "Cet adaptateur allume la lampe de bureau Xiaomi (Wifi non Yeelight)",
+      "it": "Questo adattatore cambia la lampada da scrivania Xiaomi (Wifi non Yeelight)",
+      "es": "Este adaptador cambia la lámpara de escritorio Xiaomi (Wifi not Yeelight)",
+      "pl": "Ten adapter przełącza lampę biurkową Xiaomi (Wifi nie Yeelight)"
     },
     "authors": [
       "MeisterTR <meistertr.smarthome@gmail.com>"
