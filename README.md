@@ -14,9 +14,15 @@ Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/Meister
 
 This adapter allows you control the Xiaomi Lamp with ioBroker.
 
-
+## Settings
+### Token
+Older devices send the token automatically, here you can let the token with "FFFF..."
+newer devices not sending the token anymore here you have to add the token by yourself. How to get the token see here:
+https://github.com/ioBroker/ioBroker.mihome-vacuum/blob/master/README.md
 
 ## Changelog
+### 1.1.0 (2018-01-28)
+* (MeisterTR) add token to config
 ### 1.0.0 (2018-01-28)
 * (MeisterTR) small changes, version update
 ### 0.1.0 (2017-08-02)

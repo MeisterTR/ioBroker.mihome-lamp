@@ -1,19 +1,19 @@
 {
   "common": {
     "name": "mihome-lamp",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "news": {
-      "1.0.1": {
-        "en": "ready for admin3",
-        "de": "bereit für admin3",
-        "ru": "готово для администратора3",
-        "pt": "pronto para admin3",
-        "nl": "klaar voor admin3",
-        "fr": "prêt pour admin3",
-        "it": "pronto per admin3",
-        "es": "listo para admin3",
-        "pl": "gotowy do administratora3"
-      },
+      "1.1.0": {
+				"en": "added token to config",
+				"de": "Token zur Konfiguration hinzugefügt",
+				"ru": "добавлен токен в конфигурацию",
+				"pt": "token adicionado à configuração",
+				"nl": "token toegevoegd aan config",
+				"fr": "jeton ajouté à config",
+				"it": "aggiunto token alla configurazione",
+				"es": "token añadido a la configuración",
+				"pl": "dodano token do konfiguracji"
+			},
       "0.1.0": {
         "en": "Version update",
         "de": "Version erhöht",

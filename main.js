@@ -183,7 +183,7 @@ function main() {
     adapter.config.ownPort = parseInt(adapter.config.ownPort, 10) || 53421;
     adapter.config.pingInterval = parseInt(adapter.config.pingInterval, 10) || 20000;
 
-    packet = new MiHome.Packet();
+    packet = new MiHome.Packet(adapter.config.token);
 
     packet.msgCounter = 1;
 
