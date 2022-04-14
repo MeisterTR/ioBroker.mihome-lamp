@@ -57,7 +57,6 @@
     "mode": "daemon",
     "loglevel": "info",
     "icon": "mihome-lamp.png",
-    "webExtension": "lib/mihome-lamp.js",
     "readme": "https://github.com/MeisterTR/ioBroker.mihome-lamp/blob/master/README.md",
     "keywords": [
       "url",
